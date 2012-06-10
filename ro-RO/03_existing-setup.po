@@ -35,112 +35,112 @@ msgstr ""
 #. Tag: para
 #, no-c-format
 msgid "Any computer system overhaul should take the existing system into account. This allows reuse of available resources as much as possible and guarantees interoperability of the various elements comprising the system. This study will introduce a generic framework to follow in any migration of a computing infrastructure to Linux."
-msgstr ""
+msgstr "Orice refacere a sistemului informatic trebuie să țină cont de sistemul  existent. Astfel se permite refolosirea resursele disponibile cât mai bine posibil și se garantează interoperabilitatea dintre diversele elemente care compun sistemul. Acest studiu va introduce o platformă generică de urmat în orice migrare a infrastructurii de calculatoare la GNU/Linux."
 
 #. Tag: title
 #, no-c-format
 msgid "Coexistence in Heterogeneous Environments"
-msgstr ""
+msgstr "Coexistența în mediile eterogene"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>environment</primary><secondary>heterogeneous environment</secondary>"
-msgstr ""
+msgstr "<primary>environment</primary><secondary>mediu eterogen</secondary>"
 
 #. Tag: para
 #, no-c-format
 msgid "Debian integrates very well in all types of existing environments and plays well with any other operating system. This near-perfect harmony comes from market pressure which demands that software publishers develop programs that follow standards. Compliance with standards allow administrators to switch out programs: clients or servers, whether free or not."
-msgstr ""
+msgstr "Debian se integrează foarte bine în toate tipurile de medii existente și comunică bine cu orice alt sistem de operare. Această armonie aproape perfectă provine din presiunea de pe piață care cere producătorilor de programe să dezvolte programele în conformitate cu standardele. Conformarea la standarde le permite administratorilor să treacă la alte programe (clienți sau servere), fie acestea libere sau nu."
 
 #. Tag: title
 #, no-c-format
 msgid "Integration with Windows Machines"
-msgstr ""
+msgstr "Integrarea cu mașinile cu Windows"
 
 #. Tag: para
 #, no-c-format
 msgid "Samba's SMB/CIFS support ensures excellent communication within a Windows context. It shares files and print queues to Windows clients and includes software that allow a Linux machine to use resources available on Windows servers."
-msgstr ""
+msgstr "Suportul SMB/CIFS din Samba asigură o comunicație excelentă într-un context de Windows. Permite împărtășirea fișierelor și cozile de imprimare din clienții de Windows și include programe care îi permit unei mașini de GNU/Linux să folosească resursele disponibile pe serverele cu Windows."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TOOL</emphasis> Samba"
-msgstr ""
+msgstr "<emphasis>TOOL</emphasis> Samba"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Samba</primary>"
-msgstr ""
+msgstr "<primary>Samba</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "Samba version 2 behaves like a Windows NT server (authentication, files, print queues, downloading printer drivers, DFS, etc.) Version 3 works with Active Directory, brings interoperability with NT4 domain controllers, and supports RPCs (Remote Procedure Calls). Version 4 is a rewrite (still experimental), the purpose of which is to provide functionality of a domain controller compatible with Active Directory."
-msgstr ""
+msgstr "Versiunea 2 de Samba se comportă ca un server de Windows NT (autentificare, fișiere, cozi de imprimare, descărcarea de drivere pentru imprimantă, DFS etc.). Versiunea 3 lucrează cu Active Directory (ro. dosarul activ), aducând interoperabilitatea cu controlerele de domenii NT4 și are suport pentru RPC-uri (en. Remote Procedure Calls, ro. apeluri de proceduri de la distanță). Versiunea 4 este o rescrierere (încă experimentală) făcută cu scopul de a furniza funcționalitatea unui controler de domeniu compatibil cu Active Directory."
 
 #. Tag: title
 #, no-c-format
 msgid "Integration with Mac OS machines"
-msgstr ""
+msgstr "Integrarea cu mașinile de Mac OS"
 
 #. Tag: para
 #, no-c-format
 msgid "Netatalk is a program which uses the Appletalk protocol (running on a Linux kernel) and allows Debian to interface with a Mac OS network. It ensures the operation of the file server and print queues, as well as time server (clock synchronization). Its router function allows interconnection with Appletalk networks."
-msgstr ""
+msgstr "Netatalk este un program care folosește protocolul Appletalk (care rulează pe un nucleu Linux) și îi permite lui Debian să interfațeze cu rețeaua de Mac OS. Asigură posibilitatea de a întreprinde operațiuni specifice unui server de fișiere și a cozilor de imprimare, dar și ca server de timp (pentru sincronizarea ceasului). Funcția de ruter permite interconectarea cu rețeaua de Appletalk."
 
 #. Tag: title
 #, no-c-format
 msgid "Integration with Other Linux/Unix Machines"
-msgstr ""
+msgstr "Integrarea cu alte mașini de GNU/Linux sau UNIX"
 
 #. Tag: para
 #, no-c-format
 msgid "Finally, NFS and NIS, both included, guarantee interaction with Unix systems. NFS ensures file server functionality, while NIS creates user directories. The BSD printing layer, used by most Unix systems, also allows sharing of print queues."
-msgstr ""
+msgstr "În sfârșit, NFS și NIS sunt amândouă incluse, garantând interacțiunea cu sistemele UNIX. NFS asigură funcționalitatea de server de fișiere, în timp ce NIS creează dosare pentru utilizatori. Stratul de abstractizare pentru imprimare din BSD, folosit de majoritatea sistemelor UNIX, permite și împărtășirea cozilor de imprimare."
 
 #. Tag: title
 #, no-c-format
 msgid "Coexistence of Debian with MacOS, Windows and Unix systems"
-msgstr ""
+msgstr "Coexistența dintre Debian cu sistemele MacOS, Windows și UNIX"
 
 #. Tag: title
 #, no-c-format
 msgid "How To Migrate"
-msgstr ""
+msgstr "Cum să migrezi"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>migration</primary>"
-msgstr ""
+msgstr "<primary>migrare</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "In order to guarantee continuity of the services, each computer migration must be planned and executed according to the plan. Whatever the operating system used, this principle never changes."
-msgstr ""
+msgstr "Pentru a garanta continuitatea serviciilor, migrarea pe fiecare calculator trebuie planificată și executată conform unui plan. Oricare ar fi sistemul de operare folosit, acest principiu rămâne valabil."
 
 #. Tag: title
 #, no-c-format
 msgid "Survey and Identify Services"
-msgstr ""
+msgstr "Inspectează și identifică serviciile"
 
 #. Tag: para
 #, no-c-format
 msgid "As simple as it seems, this step is essential. A serious administrator truly knows the principal roles of each server, but such roles can change, and sometimes experienced users may have installed “wild” services. Knowing that they exist will at least allow you to decide what to do with them, rather than delete them haphazardly."
-msgstr ""
+msgstr "Pe cât de simplu pare, acest pas este esențial. Un administrator responsabil cunoaște rolurile principale ale fiecărui server, dar astfel de roluri se pot schimba și câteodată este posibil ca unii utilizatori experimentați să fi instalat servicii „interesante”. Cunoscând că există, vei putea cel puțin să decizi ce să faci cu ele, în loc să le ștergi la întâmplare."
 
 #. Tag: para
 #, no-c-format
 msgid "For this purpose, it is wise to inform your users of the project before migrating the server. To involve them in the project, it may be useful to install the most common free software programs on their desktops prior to migration, which they will come across again after the migration to Debian; OpenOffice.org and the Mozilla suite are the best examples here."
-msgstr ""
+msgstr "În acest scop, este înțelept să-ți informezi utilizatorii despre proiect înainte să migrezi serverul. Pentru a-i implica și pe ei în proiect, se poate demonstra a fi util să le instalezi cele mai obișnuite programe libere pe calculatoarele de birou înainte de migrare, peste care vor da din nou după migrarea la Debian; suitele LibreOffice și Mozilla servesc cel mai bine ca exemple aici."
 
 #. Tag: title
 #, no-c-format
 msgid "Network and Processes"
-msgstr ""
+msgstr "Rețeaua și procesele"
 
 #. Tag: para
 #, no-c-format
 msgid "<indexterm><primary><command>nmap</command></primary></indexterm> The <command>nmap</command> tool (in the package with the same name) will quickly identify Internet services hosted by a network connected machine without even requiring to log in to it. Simply call the following command on another machine connected to the same network:"
-msgstr ""
+msgstr "<indexterm><primary><command>nmap</command></primary></indexterm> Unealta <command>nmap</command> (din pachetul cu același nume) va identifica rapid serviciile de Internet găzduite de o mașină conectată la rețea fără măcar să ceară să se autentifice pe ea. Pur și simplu rulează următoarea comandă de pe o altă mașină conectată la aceeași rețea:"
 
 #. Tag: screen
 #, no-c-format
@@ -156,92 +156,103 @@ msgid "\n"
 "\n"
 "Nmap done: 1 IP address (1 host up) scanned in 0.19 seconds</computeroutput>\n"
 ""
-msgstr ""
+msgstr "\n"
+"<computeroutput>$ </computeroutput><userinput>nmap ana</userinput>\n"
+"<computeroutput>Starting Nmap 5.00 ( http://nmap.org ) at 2010-07-29 16:36 CET\n"
+"Interesting ports on ana (192.168.1.99):\n"
+"Not shown: 1694 closed ports\n"
+"PORT    STATE SERVICE\n"
+"22/tcp  open  ssh\n"
+"79/tcp  open  finger\n"
+"111/tcp open  rpcbind\n"
+"\n"
+"Nmap done: 1 IP address (1 host up) scanned in 0.19 seconds</computeroutput>\n"
+""
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>ALTERNATIVE</emphasis> Use <command>netstat</command> to find the list of available services"
-msgstr ""
+msgstr "<emphasis>ALTERNATIVE</emphasis> Folosește <command>netstat</command> ca să afli lista serviciilor disponibile"
 
 #. Tag: para
 #, no-c-format
 msgid "On a Linux machine, the <command>netstat -tupan</command> command will show the list of active or pending TCP sessions, as well UDP ports on which running programs are listening. This facilitates identification of services offered on the network."
-msgstr ""
+msgstr "Pe o mașină de GNU/Linux, comanda <command>netstat -tupan</command> va afișa lista sesiunilor TCP active sau în așteptare, dar și porturile UDP de pe care ascultă programele care rulează. Aceasta facilitează identificarea serviciilor oferite în rețea."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>GOING FURTHER</emphasis> IPv6"
-msgstr ""
+msgstr "<emphasis>MERGÂND MAI DEPARTE</emphasis> IPv6"
 
 #. Tag: para
 #, no-c-format
 msgid "Some network commands may work either with IPv4 (the default usually) or with IPv6. This is especially the case with the <command>nmap</command> and <command>netstat</command> commands, but also others, such as <command>route</command> or <command>ip</command>. The convention is that this behavior is enabled by the <parameter>-6</parameter> command-line option."
-msgstr ""
+msgstr "Unele comenzi de rețea pot funcționa fie cu IPv4 (de obicei, protocolul implicit) fie cu IPv6. Acesta este cazul comenzilor <command>nmap</command> și <command>netstat</command>, dar și al altora, precum <command>route</command> sau <command>ip</command>. Convenția este ca acest comportament să fie activat de opțiunea <parameter>-6</parameter> din lina de comandă."
 
 #. Tag: para
 #, no-c-format
 msgid "If the server is a Unix machine offering shell accounts to users, it is interesting to determine if processes are executed in the background in the absence of their owner. The command <command>ps auxw</command> displays a list of all processes with their user identity. By checking this information against the output of the <command>who</command> command, which gives a list of logged in users, it is possible to identify wild servers or programs running in the background. Looking at <filename>crontabs</filename> (tables listing automatic actions scheduled by users) will often provide interesting information on functions fulfilled by the server (a complete explanation of <command>cron</command> is available in <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
-msgstr ""
+msgstr "Dacă serverul este o mașină de UNIX care oferă utilizatorilor conturi pentru folosirea liniei de comandă, este interesant să determini dacă procesele sunt executate în fundal în absența posesorului. Comanda <command>ps auxw</command> afișează lista tuturor proceselor împreună cu identitatea utilizatorilor lor. Verificând această informație cu rezultatul comenzii <command>who</command>, care îți întoarce lista utilizatorilor autentificați, este posibil să identifici serverele sau programele „interesante” care rulează în fundal. Aruncând o privire în fișierul <filename>crontabs</filename> (tabele care listează acțiunile automate planificate de utilizatori) vei afla informații utile despre funcțiile realizate de server (o explicație completă a comenzii <command>cron</command> este disponibilă în secțiunea <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
 
 #. Tag: para
 #, no-c-format
 msgid "In any case, it is essential to backup your servers: this allows recovery of information after the fact, when users will report specific problems due to the migration."
-msgstr ""
+msgstr "În orice caz, este important să faci copii de rezervă (en. backup) pentru serverele tale: acestea îți vor permite ulterior să recuperezi informația, când utilizatorii vor raporta probleme particulare provocate de migrare."
 
 #. Tag: title
 #, no-c-format
 msgid "Backing up the Configuration"
-msgstr ""
+msgstr "Salvarea configurației"
 
 #. Tag: para
 #, no-c-format
 msgid "It is wise to retain the configuration of every service identified in order to be able to install the equivalent on the updated server. The strict minimum is to print the configuration files and make a backup copy of them."
-msgstr ""
+msgstr "Este un lucru înțelept să păstrezi configurația fiecărui serviciu identificat pentru a putea instala una echivalentă pe serverul actualizat. Strictul necesar este să imprimi fișierele de configurație și să le faci copii de rezervă."
 
 #. Tag: para
 #, no-c-format
 msgid "For Unix machines, the configuration files are usually found in <filename>/etc/</filename>, but they may be located in a sub-directory of <filename>/usr/local/</filename>. This is the case if a program has been installed from sources, rather than with a package. One may also find them, in some cases, under <filename>/opt/</filename>."
-msgstr ""
+msgstr "Pe mașinile de UNIX, fișierele de configurație se găsesc de regulă în <filename>/etc/</filename>, dar pot apărea și într-un sub-dosar al lui <filename>/usr/local/</filename>. Așa se întâmplă în cazul programelor care au fost instalate din surse, și nu dintr-un pachet. Mai pot fi găsite, în anumite cazuri, și sub <filename>/opt/</filename>."
 
 #. Tag: para
 #, no-c-format
 msgid "For data managing services (such as databases), it is strongly recommended to export them to a standard format that will be easily imported by the new software. Such a format is usually in text mode and documented; it may be, for example, an SQL dump for a database, or an LDIF file for an LDAP server."
-msgstr ""
+msgstr "Pentru serviciile de gestionare a datelor (ca bazele de date), se recomandă cu căldură să fie exportate într-un format standard care va putea fi importat cu ușurință de noul program. Un astfel de format este de obicei în mod-text și documentat; poate fi, de exemplu, o listă de comenzi SQL pentru o bază de date sau un fișier LDIF pentru un server de LDAP."
 
 #. Tag: title
 #, no-c-format
 msgid "Database backups"
-msgstr ""
+msgstr "Salvările de baze de date"
 
 #. Tag: para
 #, no-c-format
 msgid "Each server software is different, and it is impossible to detail all existing cases. See the new and current software documentation to identify the exportable (thus, re-importable) portions and those which will require manual manipulation. Reading this book will clarify the configuration of the main Linux server programs."
-msgstr ""
+msgstr "Fiecare program de server este diferit și este imposibil să detailezi toate cazurile existente. Uită-te pe cea mai nouă (deci, curentă) documentație a programului pentru a identifica ce porțiuni pot fi exportate (deci, re-importate) și ce porțiuni vor necesita intervenția manuală. Citind această carte ți se va clarifica modul de configurație al principalelor programe de servere GNU/Linux."
 
 #. Tag: title
 #, no-c-format
 msgid "Taking Over an Existing Debian Server"
-msgstr ""
+msgstr "Preluarea unui server existent de Debian"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>recovering a Debian machine</primary>"
-msgstr ""
+msgstr "<primary>recuperarea unei mașini de Debian</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>exploring a Debian machine</primary>"
-msgstr ""
+msgid "<primary>exploarea unei mașini de Debian</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>taking over a Debian server</primary>"
-msgstr ""
+msgid "<primary>Preluarea unui server de Debian</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "To effectively take over its maintenance, one may analyze a machine already running with Debian."
-msgstr ""
+msgstr "Pentru a prelua efectiv gestiunea mașinii, trebuie să analizezi ce rulează deja pe Debian."
 
 #. Tag: para
 #, no-c-format
