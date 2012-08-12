@@ -1,12 +1,12 @@
 # 
-# AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Translator: Ioan Eugen Stan <stan.ieugen@gmail.com>, 2012.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2012-05-09T20:00:18\n"
-"PO-Revision-Date: 2012-05-09T20:00:18\n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2012-08-13 01:02+0300\n"
+"Last-Translator: Ioan Eugen Stan <stan.ieugen@gmail.com>\n"
 "Language-Team: None\n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
@@ -15,177 +15,177 @@ msgstr ""
 #. Tag: keyword
 #, no-c-format
 msgid "Configuration"
-msgstr ""
+msgstr "Configurare"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Localization"
-msgstr ""
+msgstr "Localizare"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Locales"
-msgstr ""
+msgstr "Locale"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Network"
-msgstr ""
+msgstr "Rețea"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Name resolution"
-msgstr ""
+msgstr "Rezolvarea numelor"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Users"
-msgstr ""
+msgstr "Utilizatori"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Groups"
-msgstr ""
+msgstr "Grupuri"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Accounts"
-msgstr ""
+msgstr "Conturi"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Command-line interpreter"
-msgstr ""
+msgstr "Interpretor linie de comandă"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Shell"
-msgstr ""
+msgstr "Shell"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Printing"
-msgstr ""
+msgstr "Tipărire"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Bootloader"
-msgstr ""
+msgstr "Încărcător de sistem"
 
 #. Tag: keyword
 #, no-c-format
 msgid "Kernel compiling"
-msgstr ""
+msgstr "Compilarea nucleului"
 
 #. Tag: title
 #, no-c-format
 msgid "Basic Configuration: Network, Accounts, Printing..."
-msgstr ""
+msgstr "Configurare de bază: Rețea, Conturi, Tipărire..."
 
 #. Tag: para
 #, no-c-format
 msgid "A computer with a new installation created with <command>debian-installer</command> is intended to be as functional as possible, but many services still have to be configured. Furthermore, it is always good to know how to change certain configuration elements defined during the initial installation process."
-msgstr ""
+msgstr "Un calculator cu o nouă instalare creată cu <command>debian-installer</command> este gândit să fie cât mai funcțional, însă tot mai trebuiesc configurate numeroase servicii. Suplimentar, este întotdeauna indicat să cunoașteți cum puteți modifica anumite elemente de configurare definite pe timpul procesului inițial de instalare."
 
 #. Tag: para
 #, no-c-format
 msgid "This chapter reviews everything included in what we could call the “basic configuration”: networking, language and locales, users and groups, printing, mount points, etc."
-msgstr ""
+msgstr "Acest capitol reamintește tot ce ține de \"configurare de bază\": rețelistică, limbi și locale, utilizatori și grupuri, tipărire, locuri de montare, etc."
 
 #. Tag: title
 #, no-c-format
 msgid "Configuring the System for Another Language"
-msgstr ""
+msgstr "Configurarea sistemului pentru o altă limbă"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>French localization</primary>"
-msgstr ""
+msgstr "<primary>Localizare în limba Franceză</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "If the system was installed using French, the machine will probably already have French set as the default language. But it is good to know what the installer does to set the language, so that later, if the need arises, you can change it."
-msgstr ""
+msgstr "Dacă sistemul a fost instalat folosind limba franceză, mașina va suporta probabil ca limbă implicită, limba franceză. Este totuși bine de știut ce face programul de instalare pentru a stabili limba, în caz că aveți nevoie ulterior să o schimbați."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>TOOL</emphasis> The <command>locale</command> command to display the current configuration"
-msgstr ""
+msgstr "<emphasis>Unealtă</emphasis> Comanda <command>locale</command> pentru afișarea configurației curente"
 
 #. Tag: para
 #, no-c-format
 msgid "The <command>locale</command> command lists a summary of the current configuration of various locale parameters (date format, numbers format, etc.), presented in the form of a group of standard environment variables dedicated to the dynamic modification of these settings."
-msgstr ""
+msgstr "Comanda <command>locale</command> listează un sumar al configurației curente pentru diverși parametrii ce țin de locale (formatul datei, numerelor, etc.), sub forma unui grup standard de variabile de mediu folosite pentru modificarea dinamică a acestor setări."
 
 #. Tag: title
 #, no-c-format
 msgid "Setting the Default Language"
-msgstr ""
+msgstr "Stabilirea limbii implicite"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>locales</primary>"
-msgstr ""
+msgstr "<primary>locale</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>language</primary>"
-msgstr ""
+msgstr "<primary>limbă</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><command>locale-gen</command></primary>"
-msgstr ""
+msgstr "<primary><command>locale-gen</command></primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "A locale is a group of regional settings. This includes not only the language for text, but also the format for displaying numbers, dates, times, and monetary sums, as well as the method for alphabetical comparison (for alphabetically ordering items, to include accented characters, where applicable). Although each of these parameters can be specified independently from the others, we generally will use one locale, which is a coherent set of values for these parameters corresponding to a “region” in the broadest sense. These locales are usually indicated under the form, <literal><replaceable>language-code</replaceable>_<replaceable>COUNTRY-CODE</replaceable></literal>, sometimes with a suffix to specify the character set and encoding to be used. This enables consideration of idiomatic or typographical differences between different regions with a common language."
-msgstr ""
+msgstr "O locală este un grup de preferințe regionale. Sunt incluse nu numai limba textului, dar și formatul pentru afișarea numerelor, datelor, orelor, sumelor monetare, cât și metode de comparare alfabetică (pentru ca elementele ordonate alfabetic să țină, după caz, cont de caracterele cu accent). Deși fiecare din acești parametrii poate fi stabilit independent de ceilalți, în general folosim o locală, ce reprezintă un set coerent de valori pentru acești parametrii corespunzători unei „regiuni” în sens larg. Aceste locale sunt indicate de obicei sub forma <literal><replaceable>language-code</replaceable>_<replaceable>COUNTRY-CODE</replaceable></literal>, uneori prevăzută cu sufix ce specifică setul de caractere și codificarea. Așa se permite diferențierea idiomatică și tipografică între regiuni cu limbă comună. "
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>CULTURE</emphasis> Character sets"
-msgstr ""
+msgstr "<emphasis>CULTURE</emphasis> Seturi de caractere"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>character set</primary>"
-msgstr ""
+msgstr "<primary>set de caractere</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>encoding</primary>"
-msgstr ""
+msgstr "<primary>codificare</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>ISO-8859-1</primary>"
-msgstr ""
+msgstr "<primary>ISO-8859-15</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>ISO-8859-15</primary>"
-msgstr ""
+msgstr "<primary>ISO-8859-15</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Latin 1</primary>"
-msgstr ""
+msgstr "<primary>Latin 1</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Latin 9</primary>"
-msgstr ""
+msgstr "<primary>Latin 9</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Latin 0</primary>"
-msgstr ""
+msgstr "<primary>Latin 0</primary>"
 
 #. Tag: para
 #, no-c-format
 msgid "Historically, each locale has an associated “character set” (group of known characters) and a preferred “encoding” (internal representationfor characters within the computer)."
-msgstr ""
+msgstr "Din punct de vedere istoric, fiecare locală are asociată un „set de caractere” (grup cunoscut de caractere) și o „codificare” preferată (reprezentarea internă calculatorului a caracterelor)"
 
 #. Tag: para
 #, no-c-format
@@ -200,17 +200,17 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>ASCII</primary>"
-msgstr ""
+msgstr "<primary>ASCII</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>UTF-8</primary>"
-msgstr ""
+msgstr "<primary>UTF-8</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>Unicode</primary>"
-msgstr ""
+msgstr "<primary>Unicod</primary>"
 
 #. Tag: para
 #, no-c-format
