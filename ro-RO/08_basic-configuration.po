@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2012-05-09T20:00:18\n"
-"PO-Revision-Date: 2012-08-13 01:02+0300\n"
+"PO-Revision-Date: 2012-08-15 13:44+0300\n"
 "Last-Translator: Ioan Eugen Stan <stan.ieugen@gmail.com>\n"
 "Language-Team: None\n"
 "MIME-Version: 1.0\n"
@@ -190,12 +190,12 @@ msgstr "Din punct de vedere istoric, fiecare locală are asociată un „set de 
 #. Tag: para
 #, no-c-format
 msgid "The <emphasis>ISO-8859-1</emphasis> (or “Latin 1”) encoding, for instance, was used preferentially in France. But for historical reasons, it did not include certain characters (such as œ, Ÿ, and €). This problem prompted the creation of <emphasis>ISO-8859-15</emphasis> (or “Latin 9”, or even “Latin 0”). Among others, it replaced respectively the former international currency symbol (a circle with four branches, ¤), “½”,“¼” and “¾” with the Euro symbol “€”, “œ”, “Œ” and “Ÿ”. Since the encoding for these two sets uses a single octet (8 bits) for each character, the sets only have room for 256 characters. Other languages use other character sets or other encodings, either from the “Latin” family, or otherwise."
-msgstr ""
+msgstr "Spre exemplu, codificarea <emphasis>ISO-8859-1</emphasis> (sau „Latin 1”) era folosită cu precădere în Franța. Din motive istorice aceasta nu includea însă anumite caractere (ca œ, Ÿ, și €). Din această cauză a fost creată codificarea <emphasis>ISO-8859-15</emphasis> (sau „Latin_9”, sau chiar „Latin_0”). Printre altele, aceasta a înlocuit caracterul internațional pentru valută (un cerc cu patru rămurele, ¤), “½”,“¼” și “¾” cu simbolul Euro “€”, “œ”, “Œ” și “Ÿ”. Deoarece codificările pentru aceste două seturi de caractere folosesc un singur octet (8 biți) pentru fiecare caracter, aceste seturi au doar 256 de caractere. Alte limbi folosesc alte seturi de caractere sau alte codificări din familia „Latin” sau din din altă familie."
 
 #. Tag: para
 #, no-c-format
 msgid "Working with foreign languages often implied regular switches between various encodings and character sets. Furthermore, writing multilingual documents led to further, almost intractable problems. Unicode (a super-catalog of nearly all writing systems from all of the world's languages) was created to work around this problem. One of Unicode's encodings, UTF-8, retains all 128 ASCII symbols (7-bit codes), but handles other characters differently. The others are preceded by a sequence of “escape” characters with a variable length. This allows encoding all Unicode characters on a sequence of one or more octets."
-msgstr ""
+msgstr "Lucrul cu limbi străine implică adesea schimbarea regulată a diferitelor codificări sau seturi de caractere. Mai mult, scrierea de documente multi-lingvistice a condus la probleme suplimentare, foarte dificile. Pentru a rezolva aceaste probleme s-a creat Unicode (un super catalog ce conține aproape toate sistemele de scriere din limbile lumii). Una din codificările Unicode, UTF-8 păstrează toate cele 128 de simboluri ASCII, dar tratează celelalte caractere diferit. Acestea sunt precedate de o secvență caractere de „eludare” cu lungime variabliă. Acest lucru permite codificarea tuturor caracterelor Unicode ca o secvență de unul sau mai mulți octeți."
 
 #. Tag: indexterm
 #, no-c-format
@@ -215,82 +215,82 @@ msgstr "<primary>Unicod</primary>"
 #. Tag: para
 #, no-c-format
 msgid "Applications have slowly migrated, and use of UTF-8 is now wide spread. This was made easier by the fact that this encoding is the standard encoding for XML documents. Outside of specific circumstances, this is the encoding that should generally be used. It has become the default on new installations since <emphasis role=\"distribution\">Etch</emphasis>."
-msgstr ""
+msgstr "Aplicațiile au migrat cu greu și acum se folosește cu precădere UTF-8. Acest lucru a fost ușurat de faptul că aceasta este codificarea standard a documentelor XML. În afara circumstnațelor speciale, aceasta este codificarea de folosit în mod uzual. Este codificarea implicită pentru toate noile instalări începând cu <emphasis role=\\\"distribution\\\">Etch</emphasis>. "
 
 #. Tag: para
 #, no-c-format
 msgid "The <emphasis role=\"pkg\">locales</emphasis> package includes all the elements required for proper functioning of “localization” for various applications. During installation, this package will ask a few questions in order to choose supported languages. This set of supported languages can be changed by running <command>dpkg-reconfigure locales</command>."
-msgstr ""
+msgstr "Pachetul <emphasis role=\\\"pkg\\\">locales</emphasis> include toate elementele necesare pentru funcționarea corespunzătoare a diferitelor aplicații pentru „localizare”. Pe durata instalării, acest pachet va ridica o serie de întrebări pentru a determina limbile suportate. Setul de limbi suportate poate fi modificat rulând <command>dpkg-reconfigure locales</command>."
 
 #. Tag: para
 #, no-c-format
 msgid "You will be asked, first, to choose what “locales” to include. Selecting all English locales (meaning those beginning with“<literal>en_US</literal>”) is a reasonable choice. Do not hesitate to choose other locales if the machine will host foreign users. This list of known locales on the system is stored in the <filename>/etc/locale.gen</filename> file. It is possible to edit this file by hand, but you should run <command>locale-gen</command> after any modifications. It will generate the necessary files for the proper functioning of added locales and remove any obsolete files."
-msgstr ""
+msgstr "Mai întâi va trebui să alegeți ce „locale” includeți. Alegerea localelor limbii Engleze (cele care încep cu <literal>en_US</literal>) este una rezonabilă. Nu ezitați să alegeți alte locale dacă mașina va găzdui utilizatori străini. Această listă cu locale cunoscute pe sistem este stocată în fișierul <filename>/etc/locale.gen</filename>. Puteți edita această listă manual dar este mai bine să folosiți <command>locale-gen</command> după orice modificare. Această comandă va genera fișierele necesare pentru funcționarea corespunzătoare a localelor adăugate și va îndepărta fișierele învechite."
 
 #. Tag: para
 #, no-c-format
 msgid "The second question, entitled “Set default locale”, requests a default locale. The recommended choice in the U.S.A. is “<literal>en_US.UTF-8</literal>”. British English speakers will prefer “<literal>en_GB.UTF-8</literal>”, and Canadians will prefer either <literal>en_CA.UTF-8</literal>” or, for French, “<literal>fr_CA.UTF-8</literal>”. The <filename>/etc/default/locale</filename> file will then be modified to set the default locale for the environment variable, <varname>LANG</varname>."
-msgstr ""
+msgstr "A doua întrebarea, intitulată „Stabiliți localizarea implicită”, solicită o localizare implicită. Opțiunea recomandată in S.U.A. este „<literal>en_US.UTF-8<literal>”. Vorbitorii de engleză britanică vor prefera „<literal>en_GB.UTF-8<literal>”, iar canadienii vor prefera una din <literal>en_CA.UTF-8</literal>” sau pentru franceză „<literal>fr_CA.UTF-8</literal>”. Fișierul <filename>/etc/default/locale</filename> va fi modificat pentru a stabili localizarea implicită pentru variabila de mediu <varname>LANG</varname>."
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>environment</primary>"
-msgstr ""
+msgstr "<primary>mediu</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>locale</primary>"
-msgstr ""
+msgstr "<primary>locale</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><varname>LANG</varname></primary>"
-msgstr ""
+msgstr "<primary><varname>LANG</varname></primary>"
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>BEHIND THE SCENES</emphasis> <filename>/etc/environment</filename> and <filename>/etc/default/locale</filename>"
-msgstr ""
+msgstr "<emphasis>ÎN SPATELE SCENEI</emphasis> <filename>/etc/environment</filename> și <filename>/etc/default/locale</filename>"
 
 #. Tag: para
 #, no-c-format
 msgid "The <filename>/etc/environment</filename> file provides the <command>login</command>, <command>gdm</command>, or even <command>ssh</command> programs with the correct environment variables to be created."
-msgstr ""
+msgstr "Fișierul <filename>/etc/environment</filename> furnizează programelor <command>login</command>, <command>gdm</command> sau chiar <command>ssh</command> variabilele corecte de mediu ce trebuiesc create."
 
 #. Tag: para
 #, no-c-format
 msgid "These applications do not create these variables directly, but rather via a PAM (<filename>pam_env.so</filename>) module. PAM (Pluggable Authentication Module) is a modular library centralizing the mechanisms for authentication, session initialization, and password management. See <xref linkend=\"section.config-pam\" /> for an example of PAM configuration."
-msgstr ""
+msgstr "Aceste aplicații nu crează variabilele de mediu direct, ci prin intermediul modulului PAM (<filename>pam_env.so</filename>). PAM (Pluggable Authentification Module ~ Modulul extensibil de autentificare) este o bibliotecă modulară care centralizează mecanismele de autentificare, inițializarea sesiunii și administrarea parolelor. Un exemplu de configurare PAM este la <xref linkend=\\\"section.config-pam\\\" />."
 
 #. Tag: para
 #, no-c-format
 msgid "The <filename>/etc/default/locale</filename> file works in a similar manner, but does not contain the <varname>LANG</varname> environment variable. This means some PAM users will inherit an environment without localization. Running server programs with regional parameters is generally discouraged; on the other hand, using the implicit regional settings is recommended for programs that open user sessions."
-msgstr ""
+msgstr "Fișierul <filename>/etc/default/locale</filename> funcționează similar, dar nu conține variabila de mediu <varname>LANG</varname>. Asta înseamnă că anumiți utilizatori PAM vor moșteni un mediu fără localizare. Rularea de programe server cu parametrii regionali este în general descurajată; pe de altă parte este recomandată folosirea preferințelor regionale implicite de către programele care deschid sesiuni utilizator."
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>PAM</primary>"
-msgstr ""
+msgstr "<primary>PAM</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><filename>pam_env.so</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>pam_env.so</filename></primary>"
 
 #. Tag: title
 #, no-c-format
 msgid "Configuring the Keyboard"
-msgstr ""
+msgstr "Configurarea tastaturii"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>keyboard</primary><secondary>layout</secondary>"
-msgstr ""
+msgstr "<secondary>aranjament</secondary><primary>tastatură</primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary>keyboard layout</primary>"
-msgstr ""
+msgstr "<primary>aranjament tastatură</primary>"
 
 #. Tag: para
 #, no-c-format
@@ -300,17 +300,17 @@ msgstr ""
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><emphasis>console-data</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>console-data</emphasis></primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><emphasis>console-tools</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>console-tools</emphasis></primary>"
 
 #. Tag: indexterm
 #, no-c-format
 msgid "<primary><emphasis>keyboard-configuration</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>keyboard-configuration</emphasis></primary>"
 
 #. Tag: para
 #, no-c-format
@@ -325,7 +325,7 @@ msgstr ""
 #. Tag: title
 #, no-c-format
 msgid "Migrating to UTF-8"
-msgstr ""
+msgstr "Migrarea la UTF-8"
 
 #. Tag: para
 #, no-c-format
