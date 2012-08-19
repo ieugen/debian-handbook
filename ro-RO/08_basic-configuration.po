@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2012-05-09T20:00:18\n"
-"PO-Revision-Date: 2012-08-15 13:44+0300\n"
+"PO-Revision-Date: 2012-08-19 23:42+0300\n"
 "Last-Translator: Ioan Eugen Stan <stan.ieugen@gmail.com>\n"
 "Language-Team: None\n"
 "MIME-Version: 1.0\n"
@@ -295,7 +295,7 @@ msgstr "<primary>aranjament tastatură</primary>"
 #. Tag: para
 #, no-c-format
 msgid "Until Debian <emphasis role=\"distribution\">Lenny</emphasis>, the keyboard layout was controlled by two different systems: for the console, <emphasis role=\"pkg\">console-tools</emphasis>/<emphasis role=\"pkg\">console-data</emphasis>; for graphical environments, <emphasis role=\"pkg\">keyboard-configuration</emphasis>. Since <emphasis role=\"distribution\">Squeeze</emphasis>, these two systems have been unified and <emphasis role=\"pkg\">keyboard-configuration</emphasis> controls the keyboard layout in both console and graphical mode. The <command>dpkg-reconfigure keyboard-configuration</command> command can be used at any time to reset the keyboard layout."
-msgstr ""
+msgstr "Până la Debian <emphasis role=\\\"distribution\\\">Lenny</emphasis>, aranjamentul tastaturii era controlat de două sisteme diferite: pentru consolă, <emphasis role=\\\"pkg\\\">console-tools</emphasis>/<emphasis role=\\\"pgk\\\">console-data</emphasis>; pentru mediul grafic, <emphasis role=\\\"pkg\\\">keyboard-configuration</emphasis>. Începând cu <emphasis role=\\\"distribution\\\">Squeeze</emphasis> aceste două sistemee au fost unificate și <emphasis role=\\\"pkg\\\">keyboard-configuration</emphasis> controlează aranjamentul tastaturii atât în consolă cât și în modul grafic. Comanda <command>dpkg-reconfigure keyboard-configuration</command> poate fi utiizată în orice moment pentru restabilirea aranjamentului tastaturii."
 
 #. Tag: indexterm
 #, no-c-format
@@ -316,11 +316,13 @@ msgstr "<primary><emphasis>keyboard-configuration</emphasis></primary>"
 #, no-c-format
 msgid "<indexterm><primary><literal>azerty</literal></primary></indexterm>The questions are relevant to the physical keyboard layout (a standard PC keyboard in the US will be a “Generic 104 key”), then the layout to choose (generally “US”), and then the position of the AltGr key (right Alt). Finally comes the question of the key to use for the “Compose key”, which allows for entering special characters by combining keystrokes. Type successively <keycombo action=\"seq\"><keycap>Compose</keycap><keycap>'</keycap><keycap>e</keycap></keycombo> and produce an e-acute (“é”). All these combinations are described in the <filename>/usr/share/X11/locale/en_US.UTF-8/Compose</filename> file (or another file, determined according to the current locale indicated by <filename>/usr/share/X11/locale/compose.dir</filename>). <indexterm><primary><literal>Compose</literal>, key</primary></indexterm> <indexterm><primary><literal>Meta</literal>, key</primary></indexterm> <indexterm><primary>key</primary><secondary><literal>Meta</literal></secondary></indexterm> <indexterm><primary>key</primary><secondary><literal>Compose</literal></secondary></indexterm>"
 msgstr ""
+"<indexterm><primary><literal>azerty</literal></primary></indexterm>Întrebările sunt relevante pentru aranjamentul fizic al tastaturii (o tastatură PC standard în S.U.A. are 104 taste), aranjamentul logic folosit (de obicei cel „US”) și poziția tastelor AltGr (Alt din dreapta). Ultima întrebare este despre ce tastă să fie folosită drept „tastă pentru compoziție (Compose)”, care va permite introducerea de caractere speciale prin combinații de taste. Apăsați succesiv <keycombo action=\\\"seq\\\"><keycap>Compose</keycap><keycap>'</keycap><keycap>e</keycap></keycombo> pentru a produce e ascuțit (“é”). \n"
+"Toate combinațiile sunt descrise în fișierul <filename>/usr/share/X11/locale/en_US.UTF-8/Compose</filename> (sau în alt fișier, determinat în funcție de localizarea curentă indicată de fișierul <filename>/usr/share/X11/locale/compose.dir</filename>). <indexterm><primary><literal>Compose</literal>, key</primary></indexterm> <indexterm><primary><literal>Meta</literal>, key</primary></indexterm> <indexterm><primary>key</primary><secondary><literal>Meta</literal></secondary></indexterm> <indexterm><primary>key</primary><secondary><literal>Compose</literal></secondary></indexterm>"
 
 #. Tag: para
 #, no-c-format
 msgid "Note that the keyboard configuration for graphical mode described here only affects the default layout; the GNOME and KDE environments, among others, provide a keyboard control panel in their preferences allowing each user to have their own configuration. Some additional options regarding the behavior of some particular keys are also available in these control panels."
-msgstr ""
+msgstr "De reținut faptul că modalitatea de confifgurarea tastaturii pentru modul grafic descrisă aici afectează doar aranjamentul implicit; mediile GNOME și KDE, și altele, oferă un panou de control pentru tastatură în setările lor permițând fiecărui utilizator să aive propria configurație. Unele opțiuni suplimentare privind comportamentul anumitor tase sunt de asemenea disponibile în aceste panouri de control."
 
 #. Tag: title
 #, no-c-format
@@ -330,37 +332,37 @@ msgstr "Migrarea la UTF-8"
 #. Tag: para
 #, no-c-format
 msgid "The generalization of UTF-8 encoding has been a long awaited solution to numerous difficulties with interoperability, since it facilitates international exchange and removes the arbitrary limits on characters that can be used in a document. The one drawback is that it had to go through a rather difficult transition phase. Since it could not be completely transparent (that is, it could not happen at the same time all over the world over), two conversion operations were required: one on file contents, and the other on filenames. Fortunately, the bulk of this migration has been completed and we discuss it largely for reference."
-msgstr ""
+msgstr "Generalizarea codificării UTF-8 a fost soluția îndelung așteptată pentru rezolvarea numeroaselor dificultăți de interoperabilitate, deoarece facilitează schimbul internațional și îndepărtează limitele arbitrare a caracterelor ce pot fi utilizate într-un document. Singurul neajuns este faza destul de dificilă de tranziție. Deoarece nu a putut fi complet transparentă (nu s-a putut face instantaneu în toată lumea), au fost necesare două operațiuni de conversie: una asupra conținutului fișierelor și alta asupra numelui fișierelor. Din fericire cea mai mare parte a migrării a fost efectuată și acum este discutată doar ca referință."
 
 #. Tag: title
 #, no-c-format
 msgid "<emphasis>CULTURE</emphasis> <foreignphrase>Mojibake</foreignphrase> and interpretation errors"
-msgstr ""
+msgstr "<emphasis>CULTURE</emphasis> <foreignphrase>Mojibake</foreignphrase> și erorile de interpretare"
 
 #. Tag: para
 #, no-c-format
 msgid "When a text is sent (or stored) without encoding information, it is not always possible for the recipient to know with certainty what convention to use for determining the meaning of a set of bytes. You can usually get an idea by getting statistics on the distribution of values present in the text, but that doesn't always give a definite answer. When the encoding system chosen for reading differs from that used in writing the file, the bytes are mis-interpreted, and you get, at best, errors on some characters, or, at worst, something completely illegible."
-msgstr ""
+msgstr "Când un text este trimis (sau stocat) fără informația de codificare, destinatarul nu poate determina cu certitudine ce convenție să folosească pentru stabilirea înțelesului unui set de octeți. Îți poți forma o idee de pe urma distribuției statistice a valorilor prezente în text, dar asta nu oferă mereu un răspuns final. Când fișierele sunt citite folosind altă codificare decât cea folosită la scriere, octeții sunt interpretați grșit, și în cel mai bun caz obțineți erori la anumite caractere, și ceva ne-inteligibil în cazul cel mai defavorabil."
 
 #. Tag: para
 #, no-c-format
 msgid "Thus, if a French text appears normal with the exception of accented letters and certain symbols which appear to be replaced with sequences of characters like “Ã©” or Ã¨” or “Ã§”, it is probably a file encoded as UTF-8 but interpreted as ISO-8859-1 or ISO-8859-15. This is a sign of a local installation that has not yet been migrated to UTF-8. If, instead, you see question marks instead of accented letters — even if these question marks seem to also replace a character that should have followed the accented letter — it is likely that your installation is already configured for UTF-8 and that you have been sent a document encoded in Western ISO."
-msgstr ""
+msgstr "Spre exemplu, dacă un text în limba franceză este afișat normal cu excepția caracterelor cu accent și anumitor simboluri care apar înlocuite cu secvențe de caractere ca “Ã©” sau Ã¨” sau “Ã§”, acesta este probabil codificat UTF-8 dar interpretat ca ISO-8859-1 sau ISO-8859-15. Acesta este semnul că instalarea locală nu a fost înca migrată la UTF-8. Dacă în schimb, observați semne de întrebare în loc de litere cu accent — chiar și dacă aceste semne de întrebare par să înlocuiască și un caracter care ar fi urmat literelor cu accent — este probabil cazul în care sistemul este configurat UTF-8 și ați primit un document codificat Western ISO."
 
 #. Tag: para
 #, no-c-format
 msgid "So much for “simple” cases. These cases only appear in Western culture, since Unicode (and UTF-8) was designed to maximize the common points with historical encodings for Western languages based on the Latin alphabet, which allows recognition of parts of the text even when some characters are missing."
-msgstr ""
+msgstr "Cam atât pentru cazurile „simple”. Aceste cazuri apar doar în cultura occidentală, deoarece Unicode (și UTF-8) a fost conceput să maximizeze punctele comune cu codificările vechi din limbile occidentale bazate pe alfabetul latin. Acestea permit recunoașterea unor părți de text chiar și atunci când unele caractere lipsesc."
 
 #. Tag: para
 #, no-c-format
 msgid "In more complex configurations, which, for example, involve two environments corresponding to two different languages that do not use the same alphabet, you often get completely illegible results — a series of abstract symbols that have nothing to do with each other. This is especially common with Asian languages due to their numerous languages and writing systems. The Japanese word <foreignphrase>mojibake</foreignphrase> has been adopted to describe this phenomenon. When it appears, diagnosis is more complex and the simplest solution is often to simply migrate to UTF-8 on both sides."
-msgstr ""
+msgstr "În confugurații mai complexe, care implică două medii cărora le corespund limbi ce nu folosesc același alfabet, obțineți adesea rezultate ne-inteligibile  — o serie de simboluri abstracte care nu au nimic în legătură unul cu altul. Acest lucru este în des întâlnit în cazul limbilor asiatice datorită numeroaselor lor sisteme de scriere. Cuvântul japonez <foreignphrase>mojibake</foreignphrase> a fost ales pentru a descrie acest fenomen. Când acesta apare, diagnoza este mai complexă și soluția cea mai simplă este migrarea ambelor sisteme la UTF-8."
 
 #. Tag: para
 #, no-c-format
 msgid "As far as file names are concerned, the migration can be relatively simple. The <command>convmv</command> tool (in the package with the same name) was created specifically for this purpose; it allows renaming files from one encoding to another. The use of this tool is relatively simple, but we recommend doing it in two steps to avoid surprises. The following example illustrates a UTF-8 environment containing directory names encoded in ISO-8859-15, and the use of <command>convmv</command> to rename them."
-msgstr ""
+msgstr "Cât privește numele de fișiere migrarea poate fi relativ simplă. Unealta <command>convmv</command> (din pachetul cu aceelași nume) a fost creată special pentru aceast scop;; permite redenumirea fișierelor de la o codificare la alta. Utilizarea ecestei unelte este relativ simplă, dar vă recomandăm să o faceți în doi pași pentru a evita surprizele. Următorul exempu arată un mediu UTF-8 ce conține nume de directoare codificate cu ISO-8859-15, și folosirea comenzii <command>convmv</command> pentru redenumirea lor."
 
 #. Tag: screen
 #, no-c-format
