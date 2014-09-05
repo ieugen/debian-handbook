@@ -729,7 +729,7 @@
       documented or even regulated. It must, in effect, respect all of the
       standards established by the <emphasis>Debian Policy</emphasis>.
       Fortunately, there are many tools that facilitate the maintainer's work.
-      The developer can, thus, focus on the specifics of their package and
+      The developer can, thus, focus on the specifics of his package and
       on more complex tasks, such as squashing bugs. <ulink type="block"
       url="http://www.debian.org/doc/debian-policy/"/></para>
 
